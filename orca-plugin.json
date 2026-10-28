@@ -1,0 +1,15 @@
+{
+  "manifestVersion": 1,
+  "id": "compound-engineering",
+  "publisher": "everyinc",
+  "name": "Compound Engineering",
+  "version": "3.33.1",
+  "description": "Brainstorm, plan, debug, review, and compound learnings with AI agents",
+  "repository": "https://github.com/EveryInc/compound-engineering-plugin",
+  "engines": { "orca": ">=1.4.0" },
+  "pluginApi": 1,
+  "contributes": {
+    "skills": [{ "path": "skills", "providers": ["codex", "claude", "agent-skills"] }]
+  },
+  "capabilities": []
+}
